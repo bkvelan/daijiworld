@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="305" id="com.daijiworld.android" version="3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.app.daijiworld" version="4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Daijiworld</name>
     <description>A News portal linking West Coast of India and the World.</description>
-    <author email="karthik@daijiworld" href="https://www.daijiworld.com">
+    <author email="richardf@atconline.biz" href="https://www.daijiworld.com">
         Daijiworld Technologies Team
     </author>
     <content src="index.html" />
@@ -15,7 +15,10 @@
     <allow-intent href="geo:*" />
     <preference name="orientation" value="portrait" />
     <preference name="ScrollEnabled" value="false" />
-    <preference name="android-minSdkVersion" value="26" />
+<preference name="android-minSdkVersion" value="29" />
+<preference name="android-targetSdkVersion" value="34" />
+<preference name="GradlePluginGoogleServicesEnabled" value="true" />
+<preference name="AndroidXEnabled" value="true" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="FadeSplashScreenDuration" value="300" />
